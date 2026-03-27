@@ -65,9 +65,10 @@ project/
 ├── notebooks/
 │   ├── 01_data_collection.ipynb
 │   ├── 02_exploratory_data_analysis.ipynb
-│
+├── mievn(virtual env)│
 ├── README.md
 └── requirements.txt
+
 ```
 
 ## 📊 Key Concepts Demonstrated
