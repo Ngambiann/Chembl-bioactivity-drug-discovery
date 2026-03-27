@@ -56,18 +56,22 @@ This project builds a data analysis pipeline for small-molecule drug discovery u
 ## 📂 Project Structure
 
 ```
-project/
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── raw/                # Original downloaded CSVs
+│   └── processed/          # Cleaned, normalized CSVs (used for analysis)
 │
 ├── notebooks/
-│   ├── 01_data_collection.ipynb
-│   ├── 02_exploratory_data_analysis.ipynb
-├── mievn(virtual env)│
+│   ├── 01_data_collection.ipynb   # Data collection + cleaning + pre-processing
+│   ├── 02_exploratory_data_analysis.ipynb   #  pIC50 + Lipinski + EDA + plots + stats
+│
+├── results/                # final plots and stats
+│   ├── plots/
+│   └── stats/
+│
+│
 ├── README.md
-└── requirements.txt
+└── requirements.txt        # Python packages needed
 
 ```
 
