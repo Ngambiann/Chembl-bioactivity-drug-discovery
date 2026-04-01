@@ -62,8 +62,8 @@ This project builds a data analysis pipeline for small-molecule drug discovery u
 │   └── processed/          # Cleaned, normalized CSVs (used for analysis)
 │
 ├── notebooks/
-│   ├── 01_data_collection.ipynb   # Data collection + cleaning + pre-processing
-│   ├── 02_exploratory_data_analysis.ipynb   #  pIC50 + Lipinski + EDA + plots + stats
+│   ├── n1data_collection.ipynb   # Data collection + cleaning + pre-processing
+│   ├── n2xploratory_data_analysis.ipynb   #  pIC50 + Lipinski + EDA + plots + stats
 │
 ├── results/                # final plots and stats
 │   ├── plots/
